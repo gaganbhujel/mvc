@@ -3,5 +3,14 @@
     "description": "This is a sample",
     "type": "project",
     "license": "MIT",
-    "require": {}
+    "authors": [
+    	{
+    		"name": "Gagan",
+    		"email": "gaganbhujel123@gmail.com"
+    	}
+    ],
+    "require": {},
+    "autoload":{
+    	"psr-4": {"Gagan\\": "src/"}
+    }
 }
